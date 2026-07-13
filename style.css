@@ -6,7 +6,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 html{
@@ -185,6 +185,11 @@ background:#00D4FF;
 margin-top:10px;
 
 border-radius:20px;
+section p{
+    max-width:850px;
+    margin:20px auto;
+    text-align:justify;
+}
 
 }
 /* ===========================
@@ -223,4 +228,20 @@ background-position:100% 50%;
 background-position:0% 50%;
 }
 
+}
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#0B0F19;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#00D4FF;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#42e3ff;
 }
