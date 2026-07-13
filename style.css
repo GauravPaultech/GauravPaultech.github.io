@@ -1,0 +1,50 @@
+/* ===========================
+   Gaurav Paul - Official Website
+   Premium Futuristic Theme
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#0B0F19;
+    color:white;
+    line-height:1.8;
+}
+
+section{
+    width:90%;
+    max-width:1100px;
+    margin:70px auto;
+    padding:40px;
+    background:#151A28;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+h1{
+    font-size:3rem;
+    color:#00D4FF;
+    margin-bottom:20px;
+}
+
+h2{
+    font-size:2rem;
+    color:#00D4FF;
+    margin-bottom:20px;
+}
+
+p{
+    font-size:1.1rem;
+    color:#D8D8D8;
+    margin-bottom:18px;
+}
+
+a{
+    text-decoration:none;
+}
