@@ -53,20 +53,27 @@ nav{
 }
 
 .hero h1{
-    font-size:65px;
-    margin-bottom:20px;
+    font-size:72px;
+    font-weight:700;
+    letter-spacing:3px;
     color:white;
+    margin-bottom:20px;
     text-shadow:
-    0 0 10px #00d9ff,
-    0 0 20px #00d9ff,
-    0 0 40px #00d9ff;
-    animation:glow 2s infinite alternate;
+        0 0 15px #00D4FF,
+        0 0 35px #00D4FF;
 }
 
 .hero h2{
     font-size:28px;
     color:#00d9ff;
     margin-bottom:30px;
+}
+
+.hero h3{
+    font-size:28px;
+    color:#00D4FF;
+    margin-bottom:25px;
+    font-weight:500;
 }
 
 .hero p{
