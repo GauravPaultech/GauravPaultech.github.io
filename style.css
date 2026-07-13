@@ -157,3 +157,53 @@ transform:translateY(0);
 }
 
 }
+/* ===========================
+   Premium Cards
+=========================== */
+
+section{
+    width:90%;
+    max-width:1100px;
+    margin:60px auto;
+    padding:50px;
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:25px;
+    backdrop-filter:blur(15px);
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    transition:0.4s;
+}
+
+section:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,217,255,0.25);
+}
+
+section h2{
+    color:#00d9ff;
+    font-size:36px;
+    margin-bottom:25px;
+}
+
+section p{
+    color:#d9d9d9;
+    font-size:20px;
+    line-height:1.8;
+    text-align:left;
+}
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+    margin-top:80px;
+    padding:30px;
+    text-align:center;
+    color:#999;
+    border-top:1px solid rgba(255,255,255,0.08);
+}
+
+footer p{
+    margin:8px 0;
+    text-align:center;
+}
