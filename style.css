@@ -602,3 +602,17 @@ transform:translateY(-80px);
 }
 
 }
+/* ===========================
+   Scroll Progress Bar
+=========================== */
+
+#progress-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:0%;
+    height:4px;
+    background:linear-gradient(90deg,#00D4FF,#66F5FF);
+    z-index:9999;
+    box-shadow:0 0 12px #00D4FF;
+}
