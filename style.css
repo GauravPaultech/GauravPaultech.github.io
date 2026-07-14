@@ -333,3 +333,41 @@ nav a.active{
     color:#d6d6d6;
     line-height:1.7;
 }
+/* ===========================
+   Journey Timeline
+=========================== */
+
+.timeline{
+    max-width:900px;
+    margin:40px auto;
+    position:relative;
+    padding-left:30px;
+    border-left:3px solid #00D4FF;
+}
+
+.timeline-item{
+    margin-bottom:40px;
+    position:relative;
+}
+
+.timeline-item::before{
+    content:"";
+    position:absolute;
+    left:-41px;
+    top:8px;
+    width:18px;
+    height:18px;
+    background:#00D4FF;
+    border-radius:50%;
+    box-shadow:0 0 15px #00D4FF;
+}
+
+.timeline-item h3{
+    color:#00D4FF;
+    margin-bottom:10px;
+}
+
+.timeline-item p{
+    color:#d9d9d9;
+    line-height:1.8;
+}
