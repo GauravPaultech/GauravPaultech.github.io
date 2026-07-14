@@ -230,19 +230,27 @@ section p{
 
 }
 /* ===========================
-   Footer
+   Premium Footer
 =========================== */
 
 footer{
+    padding:60px 20px;
     margin-top:80px;
-    padding:30px;
+    background:#081018;
+    border-top:1px solid rgba(255,255,255,.08);
     text-align:center;
-    color:#999;
-    border-top:1px solid rgba(255,255,255,0.08);
+}
+
+footer h3{
+    color:#00D4FF;
+    font-size:30px;
+    margin-bottom:15px;
 }
 
 footer p{
-    margin:8px 0;
+    color:#cfcfcf;
+    margin:10px 0;
+    line-height:1.8;
     text-align:center;
 }
 body{
