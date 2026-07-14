@@ -297,3 +297,39 @@ nav a.active{
 .hero .button{
     margin:12px;
 }
+/* ===========================
+   Vision Highlights
+=========================== */
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.card{
+    width:300px;
+    padding:30px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,0.08);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,212,255,.25);
+}
+
+.card h3{
+    color:#00D4FF;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#d6d6d6;
+    line-height:1.7;
+}
