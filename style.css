@@ -562,3 +562,43 @@ footer h3{
 }
 
 }
+/* ===========================
+   Animated Background
+=========================== */
+
+body::before{
+
+content:"";
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+background:
+radial-gradient(circle,#00D4FF22 2px,transparent 2px);
+
+background-size:80px 80px;
+
+animation:moveBackground 20s linear infinite;
+
+z-index:-1;
+
+opacity:.35;
+
+}
+
+@keyframes moveBackground{
+
+from{
+transform:translateY(0);
+}
+
+to{
+transform:translateY(-80px);
+}
+
+}
