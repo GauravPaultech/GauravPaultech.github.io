@@ -371,3 +371,40 @@ nav a.active{
     color:#d9d9d9;
     line-height:1.8;
 }
+/* ===========================
+   Statistics Section
+=========================== */
+
+.stats-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    margin-top:40px;
+}
+
+.stat-card{
+    width:220px;
+    padding:35px 20px;
+    border-radius:20px;
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,.08);
+    transition:.4s;
+}
+
+.stat-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,212,255,.3);
+}
+
+.stat-card h3{
+    font-size:42px;
+    color:#00D4FF;
+    margin-bottom:10px;
+}
+
+.stat-card p{
+    text-align:center;
+    color:#d9d9d9;
+}
