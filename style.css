@@ -54,6 +54,11 @@ border-radius:50px;
 z-index:999;
 
 }
+nav a{
+    color:#ffffff;
+    text-decoration:none;
+    transition:0.3s;
+}
 /* Hero Section */
 
 .hero{
@@ -99,12 +104,12 @@ radial-gradient(circle at top,#003d52,#081018 65%);
     line-height:1.8;
 }
 .profile-photo{
-    width:220px;
-    height:220px;
+    width:200px;
+    height:200px;
     object-fit:cover;
     border-radius:50%;
     border:4px solid #00D4FF;
-    margin-bottom:30px;
+    margin-bottom:40px;
     box-shadow:0 0 30px rgba(0,212,255,.6);
     transition:0.4s;
 }
