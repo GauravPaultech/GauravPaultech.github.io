@@ -637,3 +637,62 @@ transform:translateY(-80px);
     z-index:9999;
     box-shadow:0 0 12px #00D4FF;
 }
+.chronicle-section {
+    padding: 100px 6%;
+    text-align: center;
+}
+
+.chronicle-header span {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.chronicle-header h2 {
+    font-size: 42px;
+    margin: 15px 0;
+}
+
+.chronicle-header p {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    line-height: 1.7;
+}
+
+.newspaper-card {
+    max-width: 900px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.newspaper-image {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.newspaper-info {
+    padding: 30px 10px 10px;
+}
+
+.newspaper-info h3 {
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+
+.newspaper-info p {
+    max-width: 700px;
+    margin: 0 auto 25px;
+    line-height: 1.7;
+}
+
+.newspaper-button {
+    display: inline-block;
+    padding: 13px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
